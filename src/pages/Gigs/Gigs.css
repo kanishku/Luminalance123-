@@ -1,0 +1,122 @@
+/* Gigs.css */
+
+.gigs {
+  padding: 20px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.breadcrumbs {
+  font-size: 14px;
+  color: #666;
+}
+
+h1 {
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 16px;
+  color: #888;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.left input {
+  width: 80px;
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.right img {
+  width: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.rightMenu {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.rightMenu span {
+  display: block;
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #333;
+}
+
+.projectCard {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.projectCard img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.texts {
+  flex: 1;
+}
+
+.texts h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.texts span {
+  font-size: 14px;
+  color: #888;
+}
